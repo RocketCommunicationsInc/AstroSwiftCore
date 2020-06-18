@@ -39,7 +39,7 @@ extension UIColor
     static var astroUIPrimary:UIColor
     {return astroCoreColor(named:"astroUIPrimaryColor")}
     
-    static var astroUIPrimaryDarken1:UIColor
+    public static var astroUIPrimaryDarken1:UIColor
     {return astroCoreColor(named:"astroUIPrimaryDarken1Color")}
 
     static var astroUIPrimaryDarken2:UIColor
