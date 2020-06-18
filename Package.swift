@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AstroSwiftCore",
+    name: "astro-swift-core",
     platforms: [
         .iOS(.v13), .tvOS(.v13), .watchOS(.v6)
     ],
