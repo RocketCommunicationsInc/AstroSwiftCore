@@ -18,7 +18,7 @@ import AppKit
 #endif
 
 // Extend UIColor and NSColor to include conveniece methods to access the four core Astro color palettes
-// It's unlikely that an application will need to reference these colors directly, but instead should use the semantic UI colors defined in the astro-swift-foundation package.
+// It's unlikely that an application will need to reference these colors directly, but instead should use the semantic UI colors defined in the AstroSwiftFoundation package.
 // Astro color gudelines - https://www.astrouxds.com/design-guidelines/color
 //
 #if os(iOS) || os(tvOS) || os(watchOS)
