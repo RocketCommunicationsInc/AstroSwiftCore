@@ -1,3 +1,3 @@
-struct astro_swift_core {
+struct AstroSwiftCore {
     var text = "Hello, World!"
 }
