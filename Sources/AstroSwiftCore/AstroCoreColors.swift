@@ -19,7 +19,7 @@ import AppKit
 
 // Extend UIColor and NSColor to include conveniece methods to access the four core Astro color palettes
 // It's unlikely that an application will need to reference these colors directly, but instead should use the semantic UI colors defined in the AstroSwiftFoundation package.
-// Astro color gudelines - https://www.astrouxds.com/design-guidelines/color
+// Astro color guidelines - https://www.astrouxds.com/design-guidelines/color
 //
 #if os(iOS) || os(tvOS) || os(watchOS)
 extension UIColor
@@ -98,59 +98,59 @@ extension UIColor
 
     //MARK: astroUITertiary
     public static var astroUITertiary:UIColor
-    {return astroCoreColor(named:"astroUITertiaryColor")}
+    {return astroCoreColor(named:"Astro UI Tertiary Color")}
 
     public static var astroUITertiaryDarken1:UIColor
-    {return astroCoreColor(named:"astroUITertiaryDarken1Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 1 Color")}
 
     public static var astroUITertiaryDarken2:UIColor
-    {return astroCoreColor(named:"astroUITertiaryDarken2Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 2 Color")}
 
     public static var astroUITertiaryDarken3:UIColor
-    {return astroCoreColor(named:"astroUITertiaryDarken3Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 3 Color")}
 
     public static var astroUITertiaryDarken4:UIColor
-    {return astroCoreColor(named:"astroUITertiaryDarken4Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 4 Color")}
     
     public static var astroUITertiaryLighten1:UIColor
-    {return astroCoreColor(named:"astroUITertiaryLighten1Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 1 Color")}
 
     public static var astroUITertiaryLighten2:UIColor
-    {return astroCoreColor(named:"astroUITertiaryLighten2Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 2 Color")}
 
     public static var astroUITertiaryLighten3:UIColor
-    {return astroCoreColor(named:"astroUITertiaryLighten3Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 3 Color")}
 
     public static var astroUITertiaryLighten4:UIColor
-    {return astroCoreColor(named:"astroUITertiaryLighten4Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 4 Color")}
 
     //MARK: astroUIQuaternary
     public static var astroUIQuaternary:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryColor")}
+    {return astroCoreColor(named:"Astro UI Quaternary Color")}
     
     public static var astroUIQuaternaryDarken1:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken1Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 1 Color")}
 
     public static var astroUIQuaternaryDarken2:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken2Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 2 Color")}
 
     public static var astroUIQuaternaryDarken3:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken3Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 3 Color")}
 
     public static var astroUIQuaternaryDarken4:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken4Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 4 Color")}
     
     public static var astroUIQuaternaryLighten1:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten1Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 1 Color")}
 
     public static var astroUIQuaternaryLighten2:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten2Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 2 Color")}
 
     public static var astroUIQuaternaryLighten3:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten3Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 3 Color")}
 
     public static var astroUIQuaternaryLighten4:UIColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten4Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 4 Color")}
 }
 #endif
 
@@ -231,58 +231,58 @@ extension NSColor
 
     //MARK: astroUITertiary
     public static var astroUITertiary:NSColor
-    {return astroCoreColor(named:"astroUITertiaryColor")}
+    {return astroCoreColor(named:"Astro UI Tertiary Color")}
 
     public static var astroUITertiaryDarken1:NSColor
-    {return astroCoreColor(named:"astroUITertiaryDarken1Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 1 Color")}
 
     public static var astroUITertiaryDarken2:NSColor
-    {return astroCoreColor(named:"astroUITertiaryDarken2Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 2 Color")}
 
     public static var astroUITertiaryDarken3:NSColor
-    {return astroCoreColor(named:"astroUITertiaryDarken3Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 3 Color")}
 
     public static var astroUITertiaryDarken4:NSColor
-    {return astroCoreColor(named:"astroUITertiaryDarken4Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Darken 4 Color")}
     
     public static var astroUITertiaryLighten1:NSColor
-    {return astroCoreColor(named:"astroUITertiaryLighten1Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 1 Color")}
 
     public static var astroUITertiaryLighten2:NSColor
-    {return astroCoreColor(named:"astroUITertiaryLighten2Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 2 Color")}
 
     public static var astroUITertiaryLighten3:NSColor
-    {return astroCoreColor(named:"astroUITertiaryLighten3Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 3 Color")}
 
     public static var astroUITertiaryLighten4:NSColor
-    {return astroCoreColor(named:"astroUITertiaryLighten4Color")}
+    {return astroCoreColor(named:"Astro UI Tertiary Lighten 4 Color")}
 
     //MARK: astroUIQuaternary
     public static var astroUIQuaternary:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryColor")}
+    {return astroCoreColor(named:"Astro UI Quaternary Color")}
     
     public static var astroUIQuaternaryDarken1:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken1Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 1 Color")}
 
     public static var astroUIQuaternaryDarken2:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken2Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 2 Color")}
 
     public static var astroUIQuaternaryDarken3:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken3Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 3 Color")}
 
     public static var astroUIQuaternaryDarken4:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryDarken4Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Darken 4 Color")}
     
     public static var astroUIQuaternaryLighten1:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten1Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 1 Color")}
 
     public static var astroUIQuaternaryLighten2:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten2Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 2 Color")}
 
     public static var astroUIQuaternaryLighten3:NSColor
-    {return astroCoreColor(named:"astroUIQuaternaryLighten3Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 3 Color")}
 
     public static var astroUIQuaternaryLighten4:NSColor
-    {return astroCoreColor(named:"astroUIQuadertaryLighten4Color")}
+    {return astroCoreColor(named:"Astro UI Quaternary Lighten 4 Color")}
 }
 #endif
