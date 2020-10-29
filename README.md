@@ -1,3 +1,5 @@
 # AstroSwiftCore
 
-AstroSwiftCore provides Astro's four UI color palettes. It is unlikey that an application will need access to these raw color values. Instead, applications should use the semantic UI colors found in the AstroSwiftFoundation package.
+AstroSwiftCore is a Swift Package that brings the core color palettes of the Astro Space UX Design system to Apple platforms. AstroSwiftCore works with iOS, macOS, watchOS, and tvOS.
+
+Note that few applications will need access to these core color palettes. Instead applications should use the semantic colors found in AstroSwiftFoundation, the mainstream Astro Package for Swift.
