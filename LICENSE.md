@@ -1,6 +1,6 @@
 Copyright © 2020 Rocket Communications, Inc.
 
-Astro Swift Core, which includes visual components, system functionality, code assets, and design assets (collectively referred to herein as the “Software”), is developed and maintained by Rocket Communications, Inc. 
+AstroSwiftCore, which includes visual components, system functionality, code assets, and design assets (collectively referred to herein as the “Software”), is developed and maintained by Rocket Communications, Inc. 
 
 A non-exclusive, world-wide, royalty-free license is hereby granted, free of charge, to any person (referred to herein as “Recipient”) obtaining a copy of the Software, or any part thereof, and any associated documentation files, to use the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: (i) any copy of the Software, or part thereof, distributed by Recipient must include the copyright notice noted above, and (ii) Recipient agrees to the following warranty and waiver conditions:
 
