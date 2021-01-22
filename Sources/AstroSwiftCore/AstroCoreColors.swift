@@ -33,7 +33,13 @@ extension UIColor
     //——————————————————————————————————————————————————————————————————————————————
     private static func astroCoreColor(named:String)->UIColor
     {
+        #if os(iOS) || os(tvOS)
         return UIColor(named:named, in: .module, compatibleWith: nil) ?? astroCoreDebugColor
+        #endif
+        
+        #if os(watchOS)
+        return UIColor(named:named) ?? astroCoreDebugColor
+        #endif
     }
     
     //——————————————————————————————————————————————————————————————————————————————
@@ -166,7 +172,7 @@ extension NSColor
     //——————————————————————————————————————————————————————————————————————————————
     private static func astroCoreColor(named:String)->NSColor
     {
-        return NSColor(named:named, in: .module, compatibleWith: nil) ?? astroCoreDebugColor
+        return NSColor(named:named) ?? astroCoreDebugColor
     }
     
     //——————————————————————————————————————————————————————————————————————————————
