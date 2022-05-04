@@ -39,39 +39,19 @@ public extension Color
     //——————————————————————————————————————————————————————————————————————————————
 
     //MARK: Dark Blue
-    static var astroUIDarkBlue100:Color
-    {return astroCoreColor("Astro UI Dark Blue 100")}
-    
-    static var astroUIDarkBlue200:Color
-    {return astroCoreColor("Astro UI Dark Blue 200")}
-
-    static var astroUIDarkBlue300:Color
-    {return astroCoreColor("Astro UI Dark Blue 300")}
-    
-    static var astroUIDarkBlue400:Color
-    {return astroCoreColor("Astro UI Dark Blue 400")}
-    
-    static var astroUIDarkBlue500:Color
-    {return astroCoreColor("Astro UI Dark Blue 500")}
-    
-    static var astroUIDarkBlue600:Color
-    {return astroCoreColor("Astro UI Dark Blue 600")}
-    
-    static var astroUIDarkBlue700:Color
-    {return astroCoreColor("Astro UI Dark Blue 700")}
-    
-    static var astroUIDarkBlue800:Color
-    {return astroCoreColor("Astro UI Dark Blue 800")}
-    
-    static var astroUIDarkBlue900:Color
-    {return astroCoreColor("Astro UI Dark Blue 900")}
-    
-    static var astroUIDarkBlue950:Color
-    {return astroCoreColor("Astro UI Dark Blue 950")}
+    static var astroUIDarkBlue100:Color {astroCoreColor("Astro UI Dark Blue 100")}
+    static var astroUIDarkBlue200:Color { astroCoreColor("Astro UI Dark Blue 200")}
+    static var astroUIDarkBlue300:Color { astroCoreColor("Astro UI Dark Blue 300")}
+    static var astroUIDarkBlue400:Color { astroCoreColor("Astro UI Dark Blue 400")}
+    static var astroUIDarkBlue500:Color { astroCoreColor("Astro UI Dark Blue 500")}
+    static var astroUIDarkBlue600:Color { astroCoreColor("Astro UI Dark Blue 600")}
+    static var astroUIDarkBlue700:Color { astroCoreColor("Astro UI Dark Blue 700")}
+    static var astroUIDarkBlue800:Color { astroCoreColor("Astro UI Dark Blue 800")}
+    static var astroUIDarkBlue900:Color { astroCoreColor("Astro UI Dark Blue 900")}
+    static var astroUIDarkBlue950:Color { astroCoreColor("Astro UI Dark Blue 950")} //unusual value
 
     //MARK: Bright Blue
-    static var astroUIBrightBlue100:Color
-    {return astroCoreColor("Astro UI Bright Blue 100")}
+    static var astroUIBrightBlue100:Color  {return astroCoreColor("Astro UI Bright Blue 100")}
     
     static var astroUIBrightBlue200:Color
     {return astroCoreColor("Astro UI Bright Blue 200")}
@@ -100,61 +80,6 @@ public extension Color
     static var astroUIBrightBlue900:Color
     {return astroCoreColor("Astro UI Bright Blue 900")}
 
-    //MARK: astroUITertiary
-    static var astroUITertiary:Color
-    {return astroCoreColor("Astro UI Tertiary Color")}
-
-    static var astroUITertiaryDarken1:Color
-    {return astroCoreColor("Astro UI Tertiary Darken 1 Color")}
-
-    static var astroUITertiaryDarken2:Color
-    {return astroCoreColor("Astro UI Tertiary Darken 2 Color")}
-
-    static var astroUITertiaryDarken3:Color
-    {return astroCoreColor("Astro UI Tertiary Darken 3 Color")}
-
-    static var astroUITertiaryDarken4:Color
-    {return astroCoreColor("Astro UI Tertiary Darken 4 Color")}
-    
-    static var astroUITertiaryLighten1:Color
-    {return astroCoreColor("Astro UI Tertiary Lighten 1 Color")}
-
-    static var astroUITertiaryLighten2:Color
-    {return astroCoreColor("Astro UI Tertiary Lighten 2 Color")}
-
-    static var astroUITertiaryLighten3:Color
-    {return astroCoreColor("Astro UI Tertiary Lighten 3 Color")}
-
-    static var astroUITertiaryLighten4:Color
-    {return astroCoreColor("Astro UI Tertiary Lighten 4 Color")}
-
-    //MARK: astroUIQuaternary
-    static var astroUIQuaternary:Color
-    {return astroCoreColor("Astro UI Quaternary Color")}
-    
-    static var astroUIQuaternaryDarken1:Color
-    {return astroCoreColor("Astro UI Quaternary Darken 1 Color")}
-
-    static var astroUIQuaternaryDarken2:Color
-    {return astroCoreColor("Astro UI Quaternary Darken 2 Color")}
-
-    static var astroUIQuaternaryDarken3:Color
-    {return astroCoreColor("Astro UI Quaternary Darken 3 Color")}
-
-    static var astroUIQuaternaryDarken4:Color
-    {return astroCoreColor("Astro UI Quaternary Darken 4 Color")}
-    
-    static var astroUIQuaternaryLighten1:Color
-    {return astroCoreColor("Astro UI Quaternary Lighten 1 Color")}
-
-    static var astroUIQuaternaryLighten2:Color
-    {return astroCoreColor("Astro UI Quaternary Lighten 2 Color")}
-
-    static var astroUIQuaternaryLighten3:Color
-    {return astroCoreColor("Astro UI Quaternary Lighten 3 Color")}
-
-    static var astroUIQuaternaryLighten4:Color
-    {return astroCoreColor("Astro UI Quaternary Lighten 4 Color")}
 }
 
 
