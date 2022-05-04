@@ -19,7 +19,8 @@ import AppKit
 
 import SwiftUI
 
-// Extend Color, for SwiftUI, to include many convenience methods to access the Astro UI and Status colors
+// Extend Color, for Swift and SwiftUI, to include many convenience methods to access core Astro colors.
+// It's unlikely that an application will need to reference these colors directly, but instead should use the semantic UI colors defined in the AstroSwiftFoundation package.
 // Astro color gudelines - https://www.astrouxds.com/design-guidelines/color
 //
 public extension Color
@@ -37,61 +38,67 @@ public extension Color
     // Astro Core UI colors
     //——————————————————————————————————————————————————————————————————————————————
 
-    //MARK: astroUIPrimary
-    static var astroUIPrimary:Color
-    {return astroCoreColor("Astro UI Primary Color")}
+    //MARK: Dark Blue
+    static var astroUIDarkBlue100:Color
+    {return astroCoreColor("Astro UI Dark Blue 100")}
     
-    static var astroUIPrimaryDarken1:Color
-    {return astroCoreColor("Astro UI Primary Darken 1 Color")}
+    static var astroUIDarkBlue200:Color
+    {return astroCoreColor("Astro UI Dark Blue 200")}
 
-    static var astroUIPrimaryDarken2:Color
-    {return astroCoreColor("Astro UI Primary Darken 2 Color")}
-
-    static var astroUIPrimaryDarken3:Color
-    {return astroCoreColor("Astro UI Primary Darken 3 Color")}
-
-    static var astroUIPrimaryDarken4:Color
-    {return astroCoreColor("Astro UI Primary Darken 4 Color")}
+    static var astroUIDarkBlue300:Color
+    {return astroCoreColor("Astro UI Dark Blue 300")}
     
-    static var astroUIPrimaryLighten1:Color
-    {return astroCoreColor("Astro UI Primary Lighten 1 Color")}
-
-    static var astroUIPrimaryLighten2:Color
-    {return astroCoreColor("Astro UI Primary Lighten 2 Color")}
-
-    static var astroUIPrimaryLighten3:Color
-    {return astroCoreColor("Astro UI Primary Lighten 3 Color")}
-
-    static var astroUIPrimaryLighten4:Color
-    {return astroCoreColor("Astro UI Primary Lighten 4 Color")}
-
-    //MARK: astroUISecondary
-    static var astroUISecondary:Color
-    {return astroCoreColor("Astro UI Secondary Color")}
-
-    static var astroUISecondaryDarken1:Color
-    {return astroCoreColor("Astro UI Secondary Darken 1 Color")}
-
-    static var astroUISecondaryDarken2:Color
-    {return astroCoreColor("Astro UI Secondary Darken 2 Color")}
-
-    static var astroUISecondaryDarken3:Color
-    {return astroCoreColor("Astro UI Secondary Darken 3 Color")}
-
-    static var astroUISecondaryDarken4:Color
-    {return astroCoreColor("Astro UI Secondary Darken 4 Color")}
+    static var astroUIDarkBlue400:Color
+    {return astroCoreColor("Astro UI Dark Blue 400")}
     
-    static var astroUISecondaryLighten1:Color
-    {return astroCoreColor("Astro UI Secondary Lighten 1 Color")}
+    static var astroUIDarkBlue500:Color
+    {return astroCoreColor("Astro UI Dark Blue 500")}
+    
+    static var astroUIDarkBlue600:Color
+    {return astroCoreColor("Astro UI Dark Blue 600")}
+    
+    static var astroUIDarkBlue700:Color
+    {return astroCoreColor("Astro UI Dark Blue 700")}
+    
+    static var astroUIDarkBlue800:Color
+    {return astroCoreColor("Astro UI Dark Blue 800")}
+    
+    static var astroUIDarkBlue900:Color
+    {return astroCoreColor("Astro UI Dark Blue 900")}
+    
+    static var astroUIDarkBlue950:Color
+    {return astroCoreColor("Astro UI Dark Blue 950")}
 
-    static var astroUISecondaryLighten2:Color
-    {return astroCoreColor("Astro UI Secondary Lighten 2 Color")}
+    //MARK: Bright Blue
+    static var astroUIBrightBlue100:Color
+    {return astroCoreColor("Astro UI Bright Blue 100")}
+    
+    static var astroUIBrightBlue200:Color
+    {return astroCoreColor("Astro UI Bright Blue 200")}
 
-    static var astroUISecondaryLighten3:Color
-    {return astroCoreColor("Astro UI Secondary Lighten 3 Color")}
-
-    static var astroUISecondaryLighten4:Color
-    {return astroCoreColor("Astro UI Secondary Lighten 4 Color")}
+    static var astroUIBrightBlue300:Color
+    {return astroCoreColor("Astro UI Bright Blue 300")}
+    
+    static var astroUIBrightBlue400:Color
+    {return astroCoreColor("Astro UI Bright Blue 400")}
+    
+    static var astroUIBrightBlue500:Color
+    {return astroCoreColor("Astro UI Bright Blue 500")}
+    
+    static var astroUIBrightBlue600:Color
+    {return astroCoreColor("Astro UI Bright Blue 600")}
+    
+    static var astroUIBrightBlue700:Color
+    {return astroCoreColor("Astro UI Bright Blue 700")}
+    
+    static var astroUIBrightBlue800:Color
+    {return astroCoreColor("Astro UI Bright Blue 800")}
+    
+    static var astroUIBrightBlue850:Color
+    {return astroCoreColor("Astro UI Bright Blue 850")}
+    
+    static var astroUIBrightBlue900:Color
+    {return astroCoreColor("Astro UI Bright Blue 900")}
 
     //MARK: astroUITertiary
     static var astroUITertiary:Color
@@ -151,7 +158,7 @@ public extension Color
 }
 
 
-// Extend UIColor and NSColor to include convenience methods to access the four core Astro color palettes
+// Extend UIColor and NSColor to include convenience methods to access the core Astro color palettes
 // It's unlikely that an application will need to reference these colors directly, but instead should use the semantic UI colors defined in the AstroSwiftFoundation package.
 // Astro color guidelines - https://www.astrouxds.com/design-guidelines/color
 //
