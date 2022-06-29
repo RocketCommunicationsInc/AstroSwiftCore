@@ -38,29 +38,29 @@ public extension Color
     // Astro Core UI colors
     //——————————————————————————————————————————————————————————————————————————————
 
-    //MARK: Dark Blue
-    static var astroUIDarkBlue100:Color {astroCoreColor("Astro UI Dark Blue 100")}
-    static var astroUIDarkBlue200:Color {astroCoreColor("Astro UI Dark Blue 200")}
-    static var astroUIDarkBlue300:Color {astroCoreColor("Astro UI Dark Blue 300")}
-    static var astroUIDarkBlue400:Color {astroCoreColor("Astro UI Dark Blue 400")}
-    static var astroUIDarkBlue500:Color {astroCoreColor("Astro UI Dark Blue 500")}
-    static var astroUIDarkBlue600:Color {astroCoreColor("Astro UI Dark Blue 600")}
-    static var astroUIDarkBlue700:Color {astroCoreColor("Astro UI Dark Blue 700")}
-    static var astroUIDarkBlue800:Color {astroCoreColor("Astro UI Dark Blue 800")}
-    static var astroUIDarkBlue900:Color {astroCoreColor("Astro UI Dark Blue 900")}
-    static var astroUIDarkBlue950:Color {astroCoreColor("Astro UI Dark Blue 950")} //unusual value
+    //MARK: Darkblue
+    static var astroUIDarkBlue100:Color {astroCoreColor("Astro UI Darkblue 100")}
+    static var astroUIDarkBlue200:Color {astroCoreColor("Astro UI Darkblue 200")}
+    static var astroUIDarkBlue300:Color {astroCoreColor("Astro UI Darkblue 300")}
+    static var astroUIDarkBlue400:Color {astroCoreColor("Astro UI Darkblue 400")}
+    static var astroUIDarkBlue500:Color {astroCoreColor("Astro UI Darkblue 500")}
+    static var astroUIDarkBlue600:Color {astroCoreColor("Astro UI Darkblue 600")}
+    static var astroUIDarkBlue700:Color {astroCoreColor("Astro UI Darkblue 700")}
+    static var astroUIDarkBlue800:Color {astroCoreColor("Astro UI Darkblue 800")}
+    static var astroUIDarkBlue900:Color {astroCoreColor("Astro UI Darkblue 900")}
+    static var astroUIDarkBlue950:Color {astroCoreColor("Astro UI Darkblue 950")} //unusual value
 
-    //MARK: Bright Blue
-    static var astroUIBrightBlue100:Color {astroCoreColor("Astro UI Bright Blue 100")}
-    static var astroUIBrightBlue200:Color {astroCoreColor("Astro UI Bright Blue 200")}
-    static var astroUIBrightBlue300:Color {astroCoreColor("Astro UI Bright Blue 300")}
-    static var astroUIBrightBlue400:Color {astroCoreColor("Astro UI Bright Blue 400")}
-    static var astroUIBrightBlue500:Color {astroCoreColor("Astro UI Bright Blue 500")}
-    static var astroUIBrightBlue600:Color {astroCoreColor("Astro UI Bright Blue 600")}
-    static var astroUIBrightBlue700:Color {astroCoreColor("Astro UI Bright Blue 700")}
-    static var astroUIBrightBlue800:Color {astroCoreColor("Astro UI Bright Blue 800")}
-    static var astroUIBrightBlue850:Color {astroCoreColor("Astro UI Bright Blue 850")} //unusual value
-    static var astroUIBrightBlue900:Color {astroCoreColor("Astro UI Bright Blue 900")}
+    //MARK: Brightblue
+    static var astroUIBrightBlue100:Color {astroCoreColor("Astro UI Brightblue 100")}
+    static var astroUIBrightBlue200:Color {astroCoreColor("Astro UI Brightblue 200")}
+    static var astroUIBrightBlue300:Color {astroCoreColor("Astro UI Brightblue 300")}
+    static var astroUIBrightBlue400:Color {astroCoreColor("Astro UI Brightblue 400")}
+    static var astroUIBrightBlue500:Color {astroCoreColor("Astro UI Brightblue 500")}
+    static var astroUIBrightBlue600:Color {astroCoreColor("Astro UI Brightblue 600")}
+    static var astroUIBrightBlue700:Color {astroCoreColor("Astro UI Brightblue 700")}
+    static var astroUIBrightBlue800:Color {astroCoreColor("Astro UI Brightblue 800")}
+    static var astroUIBrightBlue850:Color {astroCoreColor("Astro UI Brightblue 850")} //unusual value
+    static var astroUIBrightBlue900:Color {astroCoreColor("Astro UI Brightblue 900")}
 
     //MARK: Grey
     static var astroUIGrey100:Color {astroCoreColor("Astro UI Grey 100")}
@@ -155,15 +155,15 @@ public extension Color
     static var astroUIPink900:Color {astroCoreColor("Astro UI Pink 900")}
 
     //MARK: Pink
-    static var astroUIHotOrange100:Color {astroCoreColor("Astro UI Hot Orange 100")}
-    static var astroUIHotOrange200:Color {astroCoreColor("Astro UI Hot Orange 200")}
-    static var astroUIHotOrange300:Color {astroCoreColor("Astro UI Hot Orange 300")}
-    static var astroUIHotOrange400:Color {astroCoreColor("Astro UI Hot Orange 400")}
-    static var astroUIHotOrange500:Color {astroCoreColor("Astro UI Hot Orange 500")}
-    static var astroUIHotOrange600:Color {astroCoreColor("Astro UI Hot Orange 600")}
-    static var astroUIHotOrange700:Color {astroCoreColor("Astro UI Hot Orange 700")}
-    static var astroUIHotOrange800:Color {astroCoreColor("Astro UI Hot Orange 800")}
-    static var astroUIHotOrange900:Color {astroCoreColor("Astro UI Hot Orange 900")}
+    static var astroUIHotOrange100:Color {astroCoreColor("Astro UI Hotorange 100")}
+    static var astroUIHotOrange200:Color {astroCoreColor("Astro UI Hotorange 200")}
+    static var astroUIHotOrange300:Color {astroCoreColor("Astro UI Hotorange 300")}
+    static var astroUIHotOrange400:Color {astroCoreColor("Astro UI Hotorange 400")}
+    static var astroUIHotOrange500:Color {astroCoreColor("Astro UI Hotorange 500")}
+    static var astroUIHotOrange600:Color {astroCoreColor("Astro UI Hotorange 600")}
+    static var astroUIHotOrange700:Color {astroCoreColor("Astro UI Hotorange 700")}
+    static var astroUIHotOrange800:Color {astroCoreColor("Astro UI Hotorange 800")}
+    static var astroUIHotOrange900:Color {astroCoreColor("Astro UI Hotorange 900")}
 
 }
 
