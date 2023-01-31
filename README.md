@@ -8,4 +8,3 @@ New in 2.0:
 • Reorganized color palletes to match Astro 7.
 
 Astro color guidelines - https://www.astrouxds.com/design-guidelines/color
-
